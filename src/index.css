@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('https://fonts.cdnfonts.com/css/cabinet-grotesk') format('woff2');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------- LIGHT MODE (default) ---------- */
+body {
+  @apply font-body bg-gray-50 text-gray-900;
+}
+
+/* ---------- DARK MODE (class “dark” on html) ---------- */
+.dark body {
+  @apply bg-brand-black text-white;
+}
+
+/* Remove custom cursor */
+body {
+  cursor: auto;
+}
