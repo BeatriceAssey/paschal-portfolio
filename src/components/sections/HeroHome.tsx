@@ -12,7 +12,6 @@ const Particle = ({ delay, duration, size, left, top, opacity }: any) => (
 )
 
 const HeroHome = () => {
-  const navigate = useNavigate()
   const [mousePos, setMousePos] = useState({ x: 0.5, y: 0.5 })
   const heroRef = useRef<HTMLDivElement>(null)
 

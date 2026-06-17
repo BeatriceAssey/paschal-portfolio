@@ -1,7 +1,6 @@
 import { testimonials } from '../../data/testimonials'
 import TestimonialCard from '../ui/TestimonialCard'
 import AnimatedSection from '../ui/AnimatedSection'
-import { motion } from 'framer-motion'
 
 const TestimonialsSlider = () => (
   <AnimatedSection className="py-20 px-6 max-w-7xl mx-auto">

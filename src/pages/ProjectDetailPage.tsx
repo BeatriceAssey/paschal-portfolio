@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { projects } from '../data/projects'
 import AnimatedSection from '../components/ui/AnimatedSection'
-import { motion } from 'framer-motion'
 
 const ProjectDetailPage = () => {
   const { id } = useParams()

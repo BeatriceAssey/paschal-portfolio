@@ -1,5 +1,4 @@
 import { useRef, useState } from 'react'
-import { motion } from 'framer-motion'
 
 interface Props {
   src: string
